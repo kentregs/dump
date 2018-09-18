@@ -1,0 +1,27 @@
+The objectives of this particular assignment are:
+
+1. To appreciate the concept of hashing
+2. To develop your own hashing functions (three functions)
+3. To compare the relative performance of the hashing functions you developed based on the number
+of collisions
+
+Your task is to develop three different hashing functions using the following:
+
+1. Prime Division Remainder Method (or Division Method)
+2. Digit Extraction Method
+3. Folding Method
+to hash the keywords & reserved of the C programming language and Java Programming language. The
+above hashing methods maybe combined, for example, digit extraction with prime division remainder
+method. You should produce a hash function that will give only few collisions.
+
+Requirements:
+
+1. You are required to use C programming language to fulfil this assignment.
+2. Your objective is to run your program (with your hash functions defined) and take note of the number of
+collisions. In addition, you are to document clearly of your observation and analysis of the entire
+experiments. The “evolution” of your hash functions until the final version (that yield fewer collisions)
+must be documented and discussed thoroughly. A table-form presentation can be used for this purpose.
+See an example below. Also, any assumptions you have defined must be clearly documented as well (i.e.,
+making different “keys” of equal length).
+At the end of each hash function (final version), you are to discuss its advantages and disadvantages (or
+strengths and weaknesses).
