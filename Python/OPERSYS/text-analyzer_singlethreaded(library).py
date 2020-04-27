@@ -1,8 +1,9 @@
 # single-threaded library approach
-# multi-threaded approach
-# author:  Kent Regalado
+# authors:  Kent Regalado
+#           Eduardo Te
+#           Seth Gabon
 # margins of error:
-#   word count:         282,547 - 283,180     = 11,866
+#   word count:         282,547 - 283,180     = 633
 #   sentence count:     19,769 - 19,435       = 334
 #   character count:    1,621,764 - 1,431,403 = 190,361
 #   total time elapsed: 0.1s

@@ -1,5 +1,7 @@
 # multi-threaded library approach
-# author:  Kent Regalado
+# authors:  Kent Regalado
+#           Eduardo Te
+#           Seth Gabon
 # margins of error:
 #   word count:         282,547 - 283,180     = 633
 #   sentence count:     19,769 - 19,435       = 334

@@ -1,5 +1,7 @@
 # multi-threaded manual approach
-# author:  Kent Regalado
+# authors:  Kent Regalado
+#           Eduardo Te
+#           Seth Gabon
 # margins of error:
 #   word count:         295,046 - 283,180     = 11,866
 #   sentence count:     19,769 - 19,435       = 334
@@ -54,7 +56,6 @@ def countWords(string, name):
     # another thread changes it to unlocked
     # then the acquire() call resets it 
     # to locked and returns
-    #shared_lock.acquire()
 
     # counts and prints aggregate number of words
     # wc = len(string.split()) 
@@ -81,14 +82,12 @@ def countWords(string, name):
     # changes the state to unlocked and returns immediately
     # NOTE: If an attempt is made to release an unlocked lock, 
     # a RuntimeError will be raised.
-    #shared_lock.release()
 
 def countSentence(string, name):
     # blocks until a call to release() in 
     # another thread changes it to unlocked
     # then the acquire() call resets it 
     # to locked and returns
-    #shared_lock.acquire()
 
     # counts and prints aggregate number of sentences
     # sc = string.count('.')
@@ -103,14 +102,12 @@ def countSentence(string, name):
     # changes the state to unlocked and returns immediately
     # NOTE: If an attempt is made to release an unlocked lock, 
     # a RuntimeError will be raised.
-    #shared_lock.release()
 
 def countCharacters(string, name):
     # blocks until a call to release() in 
     # another thread changes it to unlocked
     # then the acquire() call resets it 
     # to locked and returns
-    #shared_lock.acquire()
 
     # counts and prints aggregate number of sentences
     # cc = len(string) - string.count(' ')
@@ -127,7 +124,6 @@ def countCharacters(string, name):
     # changes the state to unlocked and returns immediately
     # NOTE: If an attempt is made to release an unlocked lock, 
     # a RuntimeError will be raised.
-    #shared_lock.release()
 
 # Driver code
 fileObject = open("61906-8.txt", "r")
