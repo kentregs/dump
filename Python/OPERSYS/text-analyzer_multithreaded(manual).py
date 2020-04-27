@@ -116,7 +116,7 @@ def countCharacters(string, name):
     cc = 0
 
     for i in range(len(string)):
-        if not([i] == '.' or [i] == '\n' or
+        if not([i] == ' ' or [i] == '\n' or
                [i] == '\t'):
             cc += 1
 
