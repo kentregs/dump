@@ -1,7 +1,5 @@
 # multi-threaded manual approach
-# authors:  Kent Regalado
-#           Eduardo Te
-#           Seth Gabon
+# author:  Kent Regalado
 # margins of error:
 #   word count:         295,046 - 283,180     = 11,866
 #   sentence count:     19,769 - 19,435       = 334
